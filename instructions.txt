@@ -1,0 +1,4 @@
+docker build -t username/simpleweb .
+
+docker run -p 8090:8090 username/simpleweb
+

@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "ejs": "^2.6.2",
+        "express": "*",
+        "jshint": "^2.10.2"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
