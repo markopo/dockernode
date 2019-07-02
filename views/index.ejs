@@ -3,12 +3,22 @@
     <head>
         <meta charset="utf-8" >
         <title>Hello World</title>
-        <style>
-            * { color: red; }
-        
-        </style>
+        <link rel="stylesheet" href="bulma.min.css">
     </head>
     <body>
-        <%= message %>
+        <div class="container">
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                        User: <%= user %>
+                        </h1>
+                        <h2 class="subtitle">
+                            <%= message %>
+                        </h2>
+                    </div>
+                </div>
+            </section>    
+        </div>   
     </body>
 </html>
