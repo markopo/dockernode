@@ -16,8 +16,11 @@ app.get('/', (req, res) => {
     const session = req.session;
 
     if(!session.user){
+      //  console.log("session: ", session);
         session.user = "Anonymous user";
     }
+
+    // console.log("session user: ", session.user);
 
     res.render("index", {
         message: "Hello Everybody! Time is now: " + new Date().toISOString(),
